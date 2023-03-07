@@ -1,4 +1,4 @@
-package com.company.lambda;
+package learn.lambda;
 
 // Demonstrate a simple lambda expression
 
