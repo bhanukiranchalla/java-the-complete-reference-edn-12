@@ -28,7 +28,7 @@ class StreamDemo {
         // Must obtain a new stream because previous call to min() is a terminal operation that consumed the stream.
         myStream = myList.stream();
         Optional<Integer> maxVal = myStream.max(Integer::compare);
-        maxVal.ifPresent((n) -> System.out.println("Maximum value: " + n));       // a different way of writing the above stmt
+        maxVal.ifPresent((Integer n) -> System.out.println("Maximum value: " + n));       // a different way of writing the above stmt
 
         // Sort the stream by use of sorted().
         Stream<Integer> sortedStream = myList.stream().sorted();
