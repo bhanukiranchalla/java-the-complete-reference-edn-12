@@ -2,11 +2,11 @@ package learn.generics;
 
 // A simple generic class.
 // Here, T is a type parameter that will be replaced by a real type when an object of type Gen is created.
-class Gen<T> {
+class MyGen<T> {
     T ob;       // declare an object of type T
 
     // Pass the constructor a reference to an object of type T.
-    Gen(T o) { ob = o; }
+    MyGen(T o) { ob = o; }
 
     // Return ob.
     T getOb() { return ob; }
@@ -21,11 +21,11 @@ class Gen<T> {
 class GenDemo {
     public static void main(String[] args) {
         // Create a Gen reference for Integers.
-        Gen<Integer> iOb;
+        MyGen<Integer> iOb;
 
         // Create a Gen<Integer> object and assign its reference to iOb. Notice the use of autoboxing to encapsulate
         // the value 88 within an Integer object.
-        iOb = new Gen<Integer>(88);
+        iOb = new MyGen<Integer>(88);
 
         // Show the type of data used by iOb.
         iOb.showType();
@@ -37,7 +37,7 @@ class GenDemo {
         System.out.println();
 
         // Create a Gen object for Strings
-        Gen<String> strOb = new Gen<String>("Generics Test");
+        MyGen<String> strOb = new MyGen<String>("Generics Test");
 
         // Show the type of data used by strOb.
         strOb.showType();

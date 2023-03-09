@@ -27,7 +27,7 @@ class Generic2<T, V> extends Generic<T> {
 // create an object of type Generic2.
 class HierDemo {
     public static void main(String[] objs) {
-        // Create a Gen2 object for String and Integer.
+        // Create a Generic2 object for String and Integer.
         Generic2<String, Integer> x = new Generic2<String, Integer>("Value is: ", 99);
 
         System.out.println(x.getOb());
