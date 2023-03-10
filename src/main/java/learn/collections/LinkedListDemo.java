@@ -2,7 +2,7 @@ package learn.collections;
 
 import java.util.LinkedList;
 
-// Demonstrate LinkedList
+// Demonstrate LinkedList. LinkedList implements the Deque interface.
 class LinkedListDemo {
     public static void main(String[] args) {
         // Create a linked list.
