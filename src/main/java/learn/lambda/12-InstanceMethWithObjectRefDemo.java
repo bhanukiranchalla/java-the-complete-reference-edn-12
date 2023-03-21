@@ -25,7 +25,7 @@ class HighTemp {
     }
 }
 
-public class InstanceMethWithObjectRefDemo {
+class InstanceMethWithObjectRefDemo {
     // A method that returns the occurrence count of an object for which some criteria, as specified by
     // the MyFunc parameter, is true.
     static <T> int counter(T[] values, MyFunc<T> f, T v) {

@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class StreamDemo7 {
+class StreamDemo7 {
     public static void main(String[] args) {
         // A list of names, phone numbers, and e-mail addresses.
         ArrayList<NamePhoneEmail> myList = new ArrayList<>();
