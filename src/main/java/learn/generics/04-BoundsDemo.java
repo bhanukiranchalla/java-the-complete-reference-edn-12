@@ -20,7 +20,7 @@ class Stats<T extends Number> {
 }
 
 // Demonstrate Stats.
-class BoundedGenDemo {
+class BoundsDemo {
     public static void main(String[] args) {
         Integer[] inums = { 1, 2, 3, 4, 5 };
         Stats<Integer> iob = new Stats<Integer>(inums);

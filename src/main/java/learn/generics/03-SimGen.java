@@ -23,7 +23,7 @@ class TwoGen<T, V> {
 }
 
 // Demonstrate TwoGen
-class TwoGenDemo {
+class SimGen {
     public static void main(String[] args) {
         TwoGen<Integer, String> tgObj = new TwoGen<Integer, String>(88, "Generics");
 
